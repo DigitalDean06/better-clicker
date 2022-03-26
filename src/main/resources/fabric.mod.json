@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "better_clicker",
+  "version": "${version}",
+  "name": "BetterClicker",
+  "description": "An automated clicker for all types of usages.",
+  "authors": [
+    "Dean"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "license": "MIT",
+  "icon": "assets/better_clicker/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.digitaldean.better_clicker.BetterClicker"
+    ]
+  },
+  "mixins": [
+    "better_clicker.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
